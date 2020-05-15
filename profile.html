@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8" />
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    background: url(hero.jpg);
+}
+    html {
+    margin: 0;
+    background: url(hero.jpg);
+}
+  canvas {
+    display: block;
+}
+.button {
+    display: inline-block;
+    letter-spacing: 5px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 10px;
+    background-color: white;
+    opacity: 0.6;
+}
+.title span {
+    color: #40c3ff;
+    opacity: 1;
+}
+ 
+
+h2 {
+    text-align: center;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: rbga(255,255,255,0.7);
+	font-family: arial;
+	box-sizing: border-box;
+}
+.card-container{
+	width: 300px;
+	height: 430px;
+	background: white;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+}
+.upper-container{
+	height: 150px;
+	background: #40c3ff;
+}
+.image-container{
+	background: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 5px;
+	transform: translate(100px,100px);
+}
+.image-container img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.lower-container{
+	height: 280px;
+	background: #FFF;
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+.lower-container h3, h4{
+	box-sizing: border-box;
+	line-height: .6;
+	font-weight: lighter;
+}
+.lower-container h4{
+	color: #40c3ff;
+	opacity: .6;
+	font-weight: bold;
+}
+.lower-container p{
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.lower-container .btn{
+	padding: 12px 20px;
+	background: #40c3ff;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+	background: transparent;
+	color: #40c3ff;
+    border: 2px solid #40c3ff;
+}
+.info {
+    padding: -10px;
+}
+
+</style>
+
+
+
+<body>
+    <h1>
+
+    </h1>
+      <div class="content">
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>Path<span>findr</span></h1>
+                    </div>
+                
+                    <div class="card-container">
+
+                        <div class="upper-container">
+                            <div class="image-container">
+                                <img src="prof.png" />
+                            </div>
+                        </div>
+                
+                        <div class="lower-container">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4></h4>
+                            </div>
+                            <div class="info">
+                                <p>Gender: Male<br>
+                                    Age: 25<br>
+                                    City: Toronto<br>
+                            </div>
+                            <div>
+                                <a href="home.html" class="btn">Save</a>
+                                <a href="index.html" class="btn">Log Out</a>
+                            </div>
+                        </div>
+                
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            
+        </section>
+</body>
+</html>
