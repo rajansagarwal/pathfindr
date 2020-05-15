@@ -37,14 +37,14 @@ h3 a:hover {
 .title {
     text-align: center;
     font-size: 30px;
-    margin-top: -10px;
+    margin-top: -0px;
 }
 .title span {
     color: #40c3ff;
 }
 canvas {
     padding-left: 33%;
-    padding-top: 20px;
+    padding-top: -20px;
 }
 .bars {
     float: right;
@@ -115,7 +115,7 @@ canvas {
 		}
 #modalWindow > div {
 			width: 400px;
-			height: 240px;
+			height: 500px;
 			position: relative;
 			margin: 10% auto;
 			padding: 20px 20px 13px 20px;
@@ -125,6 +125,39 @@ canvas {
 			background: aliceblue;
 			border-radius: 10px;
 		}	
+.people i {
+    color: black;
+}
+.bench i {
+    color: rgb(120,120,120);
+}
+.nature i{
+    color: rgb(220,220,220);
+}
+.mask {
+    background-color: lightpink;
+}
+.touch {
+    background-color: tomato;
+}
+.path {
+    background-color: lightpink;
+}
+.distance {
+    background-color: tomato;
+}
+.tresspass {
+    background-color: lightpink;
+}
+.text {
+    text-align: center;
+    padding-top: -100px;
+    margin-top: -100px;
+}
+.here {
+    padding-left: 430px;
+    margin-top: 30px;
+}
 </style>
 
 
@@ -153,20 +186,57 @@ canvas {
         
 
     <div class="bars">
-    <a href="#modalWindow" class="fa fa-map fa-3x"></a>
+    <a href="#modalWindow" class="fa fa-bars fa-3x"></a>
 	<div id="container">
     </div>
 </div>
 
 	<div id="modalWindow">
-		<div>
+		<div class="window">
 			<a href="#close" class="fa fa-times"></a><br>
-			<p>
-				Test2
-				<br><br>
-			</p>
+			<h1>
+				Legend <i class="fa fa-map"></i>
+            </h1>
+            <p>
+                <div class="people">
+                    <i class="fa fa-circle"></i> People
+                </div>
+                <div class="bench">
+                    <i class="fa fa-circle"></i> Bench
+                </div>
+                <div class="nature">
+                    <i class="fa fa-circle"></i> Nature
+                </div>
+            </p>
+            <h1>
+				Safety <i class="fa fa-exclamation-triangle"></i>
+            </h1>
+            <p>
+                <div class="mask">
+                    Wear something to cover your face at all times!
+                </div>
+                <div class="touch">
+                    Do not touch any one or any thing on your walk/run!
+                </div>
+                <div class="path">
+                    Stay on path to avoid getting lost!
+                </div>
+                <div class="distance">
+                    Keep 6 feet a part from those around you!
+                </div>
+                <div class="tresspass">
+                    Do not tresspass on property (government or domestic)!
+                </div>
+            </p>
 		</div>
-	</div>
+    </div>
+    <div class="text">
+        <h3>View the Legend and Safety <i class="fa fa-bars"></i></h3>
+        <h3>Refresh Location <i class="fa fa-refresh"></i></h3>
+        <h3>Go Home <i class="fa fa-home"></i></h3>
+    </div>
+    <div class="here">
+        <h4>You are here <i class="fa fa-map-marker"></i></h4>
     </div>
 </body>
 
