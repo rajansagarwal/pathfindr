@@ -1,6 +1,6 @@
 # Pathfindr
 
-## The Project :map:
+## The Project :hammer:
 
 As a growing teenage boy, I love to go outside in the fresh air and go for a jog or bike ride! However, I find that this current pandemic really restricts not only my activity but the activity of many across the world. We misinterpret the definition of quarantine, believing that we must stay home 24/7. But the truth is, we have it all wrong. Studies worldwide as well as several reputable businesses, such as the New York Times, agree that creating a habit of going outside is the right thing to do. However, they agree on one more thing. The safety issue. 
 
